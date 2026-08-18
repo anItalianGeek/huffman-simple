@@ -1,5 +1,14 @@
 # Huffman Encoding and Decoding Program in Assembly
 
+> Written in June 2023, second semester of my third year. At that point I'd only covered
+> programming fundamentals: no OOP, no data structures course. The original exercise was
+> in C# and is included here as `main_huffman.cs`; the assembly version came from wanting
+> to know whether I could.
+>
+> Stated limits: the alphabet is fixed at six symbols with compile-time frequencies, and
+> codes are handled as character strings, one byte per bit, with no real bit packing.
+> It's an implementation of the algorithm, not a usable compressor.
+
 This Assembly code represents a program that implements the encoding and decoding of a message using the Huffman algorithm. The Huffman algorithm is used for data compression, allowing symbols to be represented more efficiently depending on their frequency of occurrence.
 I have built this in june 2023, the idea came to me after an assignment i had to do, at the time I used C# (you may find the .cs file in this repo) but I tought it was worth giving it a try in assembly, so here it is.
 
