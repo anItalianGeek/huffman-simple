@@ -8,6 +8,8 @@
 > Stated limits: the alphabet is fixed at six symbols with compile-time frequencies, and
 > codes are handled as character strings, one byte per bit, with no real bit packing.
 > It's an implementation of the algorithm, not a usable compressor.
+>
+> Kept as a learning archive, without active development or maintenance.
 
 This Assembly code represents a program that implements the encoding and decoding of a message using the Huffman algorithm. The Huffman algorithm is used for data compression, allowing symbols to be represented more efficiently depending on their frequency of occurrence.
 I have built this in june 2023, the idea came to me after an assignment i had to do, at the time I used C# (you may find the .cs file in this repo) but I tought it was worth giving it a try in assembly, so here it is.
